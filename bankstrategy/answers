@@ -1,0 +1,15 @@
+How would you implement this using inheritance?
+By sub classing the Account class and by overriding methods in it. 
+
+How many classes would be needed to provide for all the permutations?
+One class each for a permutation.
+
+What happens if another two variations of one of these rules are added later?
+Either new logic is added to existing class (using conditional statements) 
+or Two more classes are required, which overrides the methods to add this variation.
+
+What happens if the bank manager wants to grant a special consideration to a customer, waiving fees for a month?
+In case of inheritance, need to add (extend) some conditional logic to the method. 
+
+Is there duplication of any algorithmic code in this approach?
+Yes, for rules that are not changing in the class, the code will be redundant.
